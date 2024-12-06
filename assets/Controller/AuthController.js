@@ -20,7 +20,7 @@ import { loadTableStaff } from "./StaffController.js";
 
 
         var settings = {
-            "url": "http://localhost63342:/green-shadow/api/v1/auth/signIn",
+            "url": "http://localhost:4010/green-shadow/api/v1/auth/signIn",
             "method": "POST",
             "timeout": 0,
             "headers": {
@@ -95,7 +95,7 @@ import { loadTableStaff } from "./StaffController.js";
 
 
         $.ajax({
-            url: "http://localhost63342:/green-shadow/api/v1/auth/signup",
+            url: "http://localhost:4010/green-shadow/api/v1/auth/signup",
             type: "POST",
             data: formData,
             processData: false,
